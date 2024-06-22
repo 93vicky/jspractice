@@ -36,3 +36,83 @@
     transform: rotate(360deg);
   }
 }
+.nav_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+.nav_wrapper ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+.nav_wrapper ul li {
+  list-style: none;
+  padding: 2px 8px;
+  margin: 0px 5px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #000;
+}
+.nav_wrapper ul li a{
+  text-decoration: none;
+  font-weight: 700;
+  color: #000;
+  text-transform: uppercase;
+}
+.info_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffc107;
+  border-radius: 8px;
+  padding: 24px 28px;
+}
+.nav_wrapper h4 a {
+  text-decoration: none;
+  color: #ffc107;
+  font-weight: 700;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+.info_wrapper .info_box1 h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 44px;
+}
+.info_wrapper .info_box1 p {
+  padding-right: 26rem;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.info_wrapper .info_box1 span {
+  font-size: 14px;
+  font-weight: 600;
+}
+.info_wrapper .info_box1 button.hire_btn {
+  border: none;
+  background-color: #000;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+.info_wrapper .info_box2 {
+  background-color: #fce08c;
+  border-radius: 50%;
+  z-index: 1;
+  overflow: hidden;
+  padding: 2rem 0 0;
+  width: 820px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.info_wrapper .info_box1 h4 {
+  font-size: 24px;
+  color: #000;
+}
