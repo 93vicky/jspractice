@@ -11,7 +11,7 @@ const Nav = () => {
                         <h4><NavLink to="/">Vikrant Tiwari</NavLink></h4>
                         <ul>
                             <li><NavLink to="/">Home</NavLink></li>
-                            <li><NavLink to="/crud">Crud</NavLink></li>
+                           
                         </ul>
                     </div>
                 </div>

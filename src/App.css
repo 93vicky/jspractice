@@ -162,7 +162,7 @@
   border-radius: 8px;
 }
 table.table.mt-3 tr, th, td {
-  border: 1px solid #ddd;
+  border: 1px solid #ddd !important;
 }
 button.btn-sm.btn-danger {
   border: none;
@@ -177,6 +177,20 @@ button.btn-sm.btn-primary {
   background: none;
   background-color: transparent;
   color: #0d6efd;
+}
+p.no_items_found {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  text-transform: capitalize;
+}
+td{
+  border: 1px solid #ddd;
+}
+th{
+  border: 1px solid #ddd;
 }
 
 @media only screen and (max-width:576px){
